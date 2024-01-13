@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(void) {
-  int i = 2024;
-  printf("%d\n", i);
+  for (int i = 0; i <= 24; i++) {
+    printf("%d\n", i);
+  }
   return 0;
 }
